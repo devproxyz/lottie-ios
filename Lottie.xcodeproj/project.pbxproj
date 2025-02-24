@@ -1072,6 +1072,10 @@
 		2EAF5B0527A0798700E00531 /* AnimationFontProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAF59F227A0798700E00531 /* AnimationFontProvider.swift */; };
 		2EAF5B0627A0798700E00531 /* AnimationFontProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAF59F227A0798700E00531 /* AnimationFontProvider.swift */; };
 		36E57EAC28AF7ADF00B7EFDA /* HardcodedTextProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E57EAB28AF7ADF00B7EFDA /* HardcodedTextProvider.swift */; };
+		4BD3E1D92D6CC56A00EA512A /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 4BD3E1D82D6CC56A00EA512A /* PrivacyInfo.xcprivacy */; };
+		4BD3E1DA2D6CC56E00EA512A /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 4BD3E1D82D6CC56A00EA512A /* PrivacyInfo.xcprivacy */; };
+		4BD3E1DB2D6CC56E00EA512A /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 4BD3E1D82D6CC56A00EA512A /* PrivacyInfo.xcprivacy */; };
+		4BD3E1DC2D6CC56E00EA512A /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 4BD3E1D82D6CC56A00EA512A /* PrivacyInfo.xcprivacy */; };
 		57210913291073E400169699 /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57210912291073E400169699 /* RoundedCorners.swift */; };
 		57210914291073E400169699 /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57210912291073E400169699 /* RoundedCorners.swift */; };
 		57210915291073E400169699 /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57210912291073E400169699 /* RoundedCorners.swift */; };
@@ -1441,6 +1445,7 @@
 		2EAF59F027A0798700E00531 /* PointValueProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointValueProvider.swift; sourceTree = "<group>"; };
 		2EAF59F227A0798700E00531 /* AnimationFontProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationFontProvider.swift; sourceTree = "<group>"; };
 		36E57EAB28AF7ADF00B7EFDA /* HardcodedTextProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardcodedTextProvider.swift; sourceTree = "<group>"; };
+		4BD3E1D82D6CC56A00EA512A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Sources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		57210912291073E400169699 /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
 		5721091A2910874A00169699 /* RoundedCornersNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornersNode.swift; sourceTree = "<group>"; };
 		5721091E29119F3100169699 /* BezierPathRoundExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierPathRoundExtension.swift; sourceTree = "<group>"; };
@@ -1720,6 +1725,7 @@
 		2E80409027A0725D006E74CB = {
 			isa = PBXGroup;
 			children = (
+				4BD3E1D82D6CC56A00EA512A /* PrivacyInfo.xcprivacy */,
 				2EAF59C027A0798600E00531 /* Sources */,
 				2E8040BA27A07343006E74CB /* Tests */,
 				2E80409B27A0725D006E74CB /* Products */,
@@ -2616,6 +2622,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BD3E1DC2D6CC56E00EA512A /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2623,6 +2630,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BD3E1D92D6CC56A00EA512A /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2639,6 +2647,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BD3E1DA2D6CC56E00EA512A /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2646,6 +2655,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BD3E1DB2D6CC56E00EA512A /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
